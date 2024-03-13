@@ -1,0 +1,79 @@
+Visual Studio Code
+==================
+1. Download and install vscode software from the below URL
+   https://code.visualstudio.com/download
+
+2. create a folder 'angular_11_march_2024' 
+   cmd   -->   code .   (vscode opens in the current folder)
+
+3. Go to Extensions Tab & install vscode extension 'open in browser'
+
+4. create an HTML file 'demo_1.html' and add some HTML code
+
+5. To Open the html file in browser use the below shortcuts
+   Alt + b              (Opens the html file in the default browser)
+   Alt + Shift + b      (show you a list of browsers)
+   
+
+
+EMMET
+======
+!    generates HTML 5 boilerplate code
+
+h1{This is a Heading}
+
+p*5{This is Paragraph-$}
+
+#div1{This is div-1}
+
+.div2{This is a div with class}
+
+button.btn.btn-primary{This is Primary Button}
+
+table>tbody>tr*10>td*4{Data-$}
+
+
+
+HTML - content of a webpage
+CSS - for styling
+Bootstrap - Responsiveness + pre-defined components-table,carousel,modal,card
+Javascript - behaviour of a webpage
+
+
+Javascript
+==========
+-dynamically typed , Synchronous & single-threaded Programming Language.
+-dynamically typed means the types are checked, and datatype mismatches are spotted only at the runtime.
+-JavaScript engine executes code from top to bottom, line by line.In other words, it is synchronous.
+-JavaScript engine has only one 'call-stack' so that it only can do one thing at a time.
+
+-A JavaScript engine is a program or an interpreter which executes JavaScript code. 
+
+Note: To Run Javascript code, No software is required. JS code runs on browser
+  
+
+javascript Engines:
+	V8  - is developed by Google , Google Chrome.
+	SpiderMonkey - is developed by Mozilla , Firefox.
+	JavaScriptCore  - is Apple's engine for its Safari browser. 
+	Chakra  - is the JavaScript engine of the Internet Explorer browser.
+
+
+
+
+Types
+------
+1. internal
+	a. <script></script>	
+	b. head or body
+	c. page level javascript
+	
+2. external
+	a. separate js file(needs to be included to html)
+		<script src='abc.js'></script>	
+	b. head or body
+	c. Application level/project level
+
+	
+Q. What is the best place to include js files? head/body?
+
