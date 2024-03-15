@@ -1,4 +1,7 @@
-	Javascript					 TypeScript
+Typescript  = Javascript + (stongly Typed, Generics, Interface)	
+    
+
+    Javascript					 TypeScript
 ---------------------------------------------------------
 1.strongly typed-No				1.strongly typed-yes
 2.directly run on browser		2.not directly run on the browser
@@ -20,3 +23,6 @@ How to include a TypeScript file into a HTML file
  tsc -v  (tsc - Typescript compiler)
 -To convert TypeScript to Javascript
  tsc <fileName.ts>
+
+
+ 
