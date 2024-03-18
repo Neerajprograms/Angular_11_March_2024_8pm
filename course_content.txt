@@ -1,0 +1,25 @@
+Angular Installation
+Angular vs AngularJS
+Angular CLI
+Component
+Module
+Data binding
+View Encapsulation
+Inbuilt Directives
+Custom Directives
+Pipes
+Custom Pipes
+Component Communication
+LifeCycle Methods / Hooks
+Services
+Dependency Injection
+HttpClient / AJAX
+Interceptors
+Observables (RxJs)
+Form
+Routing
+Lazy Loading
+NgRx (State management)
+Build & Deploy
+Angular Material
+Unit testing (Jasmine + Karma)
