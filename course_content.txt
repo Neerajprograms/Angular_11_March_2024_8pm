@@ -1,3 +1,30 @@
+Javascript
+==========
+Datatypes - Yes
+Variables - Yes
+Use strict 
+Functions
+Math
+String
+Array
+Object
+OOPS
+Closure
+Prototypes
+Call , bind , apply
+Date & Time
+setTimeout , setInterval
+callBack , Promise , Async Await
+REST Parameter
+De-structuring
+Modules
+Generators
+
+
+
+
+Angular
+===========
 Angular Installation
 Angular vs AngularJS
 Angular CLI

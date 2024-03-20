@@ -1,0 +1,61 @@
+How to Use Vscode
+=================
+1. download and install vs-code
+   https://code.visualstudio.com/download
+
+2. open vscode , open a folder (ex: angular_11_march_2024)
+
+3. Go to Extensions tab & install the below Extensions
+   'open in browser' / 'live server'
+   This extension will help to open html files in browser
+
+4. create a HTML file & add some code
+   !  (enter)
+   
+5. for Javascript either use internal/external javascript
+    <script>
+        let a = 10;
+        let b = 20;
+        console.log(`Addition of ${a} & ${b} is ${a + b}`)
+    </script>
+
+6. To Run HTML file in browser, try the below commands
+  Alt + b
+  Alt + Shift + b
+Note : above shortcuts will work only if you have installed 'open in browser'
+======================================================================================
+
+How to run only javascript code without HTML file
+-----------------------------------------------
+1. Download & install nodeJS
+
+2. create a JS file and add your code there (abc.js)
+
+3. open terminal in the folder where your JAvascript file is present
+   to open terminal in vs-code  (ctrl + `)
+
+4. Run the below command
+   node abc.js
+
+
+
+Use Strict
+==========
+-provides better coding standard and stronger error checking.
+-'use strict' is only recognized at the beginning of a script or a function.
+-The purpose of "use strict" is to execute the javascript in "strict mode".
+-when 'use strict' is not written, browser runs the JS in normal mode.
+-when 'use strict' is  written, browser runs the JS in strict mode.
+-Strict mode changes some previously-accepted mistakes into errors.
+
+
+1. variable declaration without var/let/const is not allowed.
+   makes it impossible to accidentally create global variables.
+2. function with duplicate arguements are not allowed.
+3. NaN/undefined/Infinity cann't be used as a variable name.
+4. undeletable properties cann't be deleted. 
+    ex:delete Object.prototype; 
+	var x = 5; delete x;
+5. Multiple assignments not allowed.
+   var a = b = c = 3;
+6. 'this' is undefined, when a function is invoked from Global Context in strict mode.
