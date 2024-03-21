@@ -1,0 +1,23 @@
+<script>
+    console.log('Global code startes here')
+
+    function f3() {
+        console.log('f3starts')
+        console.log('f3 ends')
+    }
+    function f2() {
+        console.log('f2 starts')
+        console.log('I am f2....')
+        f3();
+        console.log('f2 ends')
+    }
+    function f1() {
+        console.log('f1 starts')
+        console.log('I am f1....')
+        f2();
+        console.log('f1 ends')
+    }
+    f1();
+
+    console.log('Global code Ends  here')
+</script>
