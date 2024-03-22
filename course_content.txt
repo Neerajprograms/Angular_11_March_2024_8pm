@@ -2,8 +2,8 @@ Javascript
 ==========
 Datatypes - Yes
 Variables - Yes
-Use strict 
-Functions
+Use strict - yes
+Functions  - 
 Math
 String
 Array

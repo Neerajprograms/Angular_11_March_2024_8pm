@@ -1,0 +1,13 @@
+<script>
+    console.log('line-2 ', a); // undefined
+    var a = 10;
+    console.log('line-4 ', a); // 10
+
+    function test() {
+        console.log('line-7 ', a); // undefined
+        var a = 20;
+        console.log('line-9 ', a); // 20
+    }
+    test();
+    console.log('line-12 ', a); // 10
+</script>
