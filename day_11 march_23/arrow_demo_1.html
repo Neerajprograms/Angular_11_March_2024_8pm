@@ -1,0 +1,21 @@
+<script>
+    // Regular Function : 'this' is dynamic, how/where the function is called
+    // Arrow Function   : 'this' is static, where the function is declared/written
+
+    let user = {
+        name: 'sanjay',
+        displayName: function () {
+            console.log(this)
+            console.log(this.name)
+        },
+        printName: () => {
+            console.log(this)
+            console.log(this.name)
+        }
+    }
+
+    user.displayName() // inside displayName(), this = user
+    user.printName()   // inside printName(), this = window
+
+    // Note : inside object literal regular functions should be used, not arrow functions
+</script>
