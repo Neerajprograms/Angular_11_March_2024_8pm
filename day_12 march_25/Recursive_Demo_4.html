@@ -1,0 +1,25 @@
+<script>
+    var nestedObject = {
+        data: {
+            info: {
+                stuff: {
+                    thing: {
+                        moreStuff: {
+                            magicNumber: 22,
+                            something: "hello",
+                            manyMoreStuff: {
+                                number: 44,
+                            },
+                        },
+                    },
+                },
+            },
+        },
+    };
+    function containsValue() {
+        // write your logic here
+    }
+    console.log(containsValue(nestedObj, 'hello')) // true
+    console.log(containsValue(nestedObj, 50)) // false
+
+</script>

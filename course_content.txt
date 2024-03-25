@@ -3,7 +3,7 @@ Javascript
 Datatypes - Yes
 Variables - Yes
 Use strict - yes
-Functions  - 
+Functions  - Yes
 Math
 String
 Array
