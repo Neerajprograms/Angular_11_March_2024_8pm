@@ -1,0 +1,15 @@
+<script>
+    let a = 'hello'; // String Literal
+    let b = new String('hello'); // String Object
+
+    console.log(typeof a); // string
+    console.log(typeof b); // object
+
+    let str1 = '2+2'
+    let str2 = new String('2+2');
+    console.log(eval(str1));
+    console.log(eval(str2)); // eval() cann't evaluate String object
+
+    let str3 = str2.valueOf(); // valueOf() converts string object to literal
+    console.log(eval(str3)); 
+</script>

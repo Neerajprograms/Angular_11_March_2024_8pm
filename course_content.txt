@@ -4,8 +4,8 @@ Datatypes - Yes
 Variables - Yes
 Use strict - yes
 Functions  - Yes
-Math
-String
+Math - yes
+String - 
 Array
 Object
 OOPS
