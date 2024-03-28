@@ -1,0 +1,4 @@
+split()
+search(regex)
+trim()
+eval(); (eval() is from Window Object)

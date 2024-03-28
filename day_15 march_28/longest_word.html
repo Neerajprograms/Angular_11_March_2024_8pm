@@ -1,0 +1,12 @@
+<script>
+    let str = 'This is javascript class';
+    let longest = '';
+
+    let wordArr = str.split(' ');
+    for (word of wordArr) {
+        if (word.length > longest.length) {
+            longest = word;
+        }
+    }
+    console.log(longest)
+</script>

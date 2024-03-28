@@ -1,0 +1,16 @@
+<script>
+    function isAnagram(str1, str2) {
+        str1 = str1.toLowerCase();
+        str2 = str2.toLowerCase();
+
+        if (str1.length !== str2.length) {
+            return false
+        } else {
+            let sortedChars1 = str1.split('').sort().join('')
+            let sortedChars2 = str2.split('').sort().join('');
+            return sortedChars1 === sortedChars2;
+        }
+    }
+    console.log(isAnagram('silent', 'Listen'))
+    console.log(isAnagram('silent', 'listen123'))
+</script>
