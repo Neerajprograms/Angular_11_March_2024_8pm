@@ -5,11 +5,11 @@ Variables - Yes
 Use strict - yes
 Functions  - Yes
 Math - yes
-String - 
-Array
-Object
+String - yes
+Array - Yes
+Object - 
 OOPS
-Closure
+Closure - Yes
 Prototypes
 Call , bind , apply
 Date & Time
