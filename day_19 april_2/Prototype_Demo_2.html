@@ -1,0 +1,28 @@
+<script>
+    class Employee {
+        constructor(id, fName, lName, sal) {
+            this.id = id;
+            this.fName = fName;
+            this.lName = lName;
+            this.sal = sal;
+        }
+        /* fullName = () => {
+            console.log(this.fName + " " + this.lName);
+        }
+        getAnnualSalary = () => {
+            console.log(this.sal * 12);
+        } */
+    }
+    Employee.prototype.fullName = function () {
+        console.log(this.fName + " " + this.lName);
+    }
+    Employee.prototype.getAnnualSalary = function () {
+        console.log(this.sal * 12);
+    }
+    let emp1 = new Employee(101, 'sachin', 'tendulkar', 4000);
+    let emp2 = new Employee(102, 'sanjay', 'samantra', 4500);
+    console.log(emp1, emp2);
+
+    emp1.fullName();
+    emp1.getAnnualSalary();
+</script>
