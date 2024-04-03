@@ -7,10 +7,10 @@ Functions  - Yes
 Math - yes
 String - yes
 Array - Yes
-Object - 
-OOPS
+Object - Yes
+OOPS - Yes
 Closure - Yes
-Prototypes
+Prototypes - Yes
 Call , bind , apply
 Date & Time
 setTimeout , setInterval
