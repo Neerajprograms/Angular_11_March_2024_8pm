@@ -1,0 +1,17 @@
+<script>
+    function add(a, b) {
+        console.log(this.num + a + b); // this = window
+    }
+    add(2, 3); // NaN
+    let obj = { num: 4 };
+    add.call(obj, 2, 3);  // 9
+    add.call(obj, 4, 5);  // 13
+    add.call(obj, 5, 6);  // 15
+    // every time add() is called , obj need to be passed
+
+    // bind() , binds an object with a function and returns a new function
+    let sum = add.bind(obj);  // inside add(), always this = obj
+    sum(2, 3)
+    sum(4, 5)
+    sum(5, 6)
+</script>

@@ -1,0 +1,15 @@
+<script>
+    function add(a, b) {
+        console.log(this.num + a + b); // this = window
+    }
+    add(2, 3); // NaN
+    let obj = { num: 4 };
+    add.call(obj, 2, 3); // 9
+
+    let arr = [2, 3];
+    add.call(obj, arr); // 4 2,3 undefined
+
+    add.apply(obj, arr);  // 9
+    // 1. inside add(), this = obj
+    // 2. each element from array is passed as arg to add()
+</script>

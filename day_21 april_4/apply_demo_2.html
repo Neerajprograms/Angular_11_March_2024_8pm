@@ -1,0 +1,10 @@
+<script>
+    console.log(Math.max(10, 20, 30, 40, 50));
+
+    let arr = [10, 20, 30, 40, 50];
+    console.log(Math.min(arr));
+    // min() is expecting individual values , not an array
+
+    console.log(Math.min.apply(null, arr));
+    console.log(Math.min(...arr)); // Spread Operator
+</script>

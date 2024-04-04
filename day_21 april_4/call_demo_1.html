@@ -1,0 +1,8 @@
+<script>
+    function add(a, b) {
+        console.log(this.num + a + b); // this = window
+    }
+    add(2, 3);
+    let obj = { num: 4 };
+    add.call(obj, 2, 3); // inside add() , this = obj
+</script>

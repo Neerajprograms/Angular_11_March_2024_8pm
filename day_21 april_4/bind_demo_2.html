@@ -1,0 +1,19 @@
+<script>
+    class Employee {
+        constructor(name, age, sal) {
+            this.name = name;
+            this.age = age;
+            this.sal = sal;
+        }
+        displayInfo() {
+            console.log('I am display Info Method');
+            console.log(this.name, this.age, this.sal);
+        }
+    }
+    let emp1 = new Employee('sanjay', 50, 4000);
+    emp1.displayInfo();   // inside displayInfo(), this = emp
+
+    setTimeout(emp1.displayInfo, 2000);
+    // inside displayInfo()  , this = window
+    setTimeout(emp1.displayInfo.bind(emp1), 4000);
+</script>

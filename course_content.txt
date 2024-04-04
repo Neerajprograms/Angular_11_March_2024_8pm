@@ -11,8 +11,8 @@ Object - Yes
 OOPS - Yes
 Closure - Yes
 Prototypes - Yes
-Call , bind , apply
-Date & Time
+Call , bind , apply - Yes
+Date & Time - Yes
 setTimeout , setInterval
 callBack , Promise , Async Await
 REST Parameter
