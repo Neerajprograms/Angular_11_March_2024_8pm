@@ -1,0 +1,15 @@
+<body>
+    <center>
+        <h1></h1>
+    </center>
+    <script>
+        // get the time and print on the screen
+        // repeat this process every 1 sec
+        function printTime() {
+            let date = new Date();
+            let time = date.toLocaleTimeString();
+            document.querySelector('h1').innerHTML = time;
+        }
+        setInterval(printTime, 1000)
+    </script>
+</body>

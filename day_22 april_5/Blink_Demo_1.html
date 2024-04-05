@@ -1,0 +1,14 @@
+<body>
+    <center>
+        <h1>This is a Heading, This blinks</h1>
+    </center>
+    <script>
+        function blink() {
+            document.querySelector('h1').style.display = 'block';
+            setTimeout(() => {
+                document.querySelector('h1').style.display = 'none';
+            }, 500);
+        }
+        setInterval(blink, 1000);
+    </script>
+</body>
