@@ -13,12 +13,20 @@ Closure - Yes
 Prototypes - Yes
 Call , bind , apply - Yes
 Date & Time - Yes
-setTimeout , setInterval
-callBack , Promise , Async Await
-REST Parameter
-De-structuring
+setTimeout , setInterval - Yes
+
+ES-6 Features
+=============
+let and const Keywords - Yes
+Arrow Functions   - Yes
+Template Literals
+Multi-line Strings
+Default Parameters
+Destructuring Assignment
+Enhanced Object Literals
+Promises,async await
+Classes
 Modules
-Generators
 
 
 
