@@ -14,19 +14,21 @@ Prototypes - Yes
 Call , bind , apply - Yes
 Date & Time - Yes
 setTimeout , setInterval - Yes
+offline storage - yes   (HTML-5)
+
 
 ES-6 Features
 =============
 let and const Keywords - Yes
 Arrow Functions   - Yes
-Template Literals
-Multi-line Strings
-Default Parameters
-Destructuring Assignment
-Enhanced Object Literals
+Template Literals - yes
+Multi-line Strings - yes
+Default Parameters - yes
+Destructuring Assignment - yes
+Enhanced Object Literals - yes
+Classes  - yes
+Modules  - yes
 Promises,async await
-Classes
-Modules
 
 
 
