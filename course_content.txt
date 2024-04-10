@@ -28,7 +28,7 @@ Destructuring Assignment - yes
 Enhanced Object Literals - yes
 Classes  - yes
 Modules  - yes
-Promises,async await
+Promises,async await - yes
 
 
 
